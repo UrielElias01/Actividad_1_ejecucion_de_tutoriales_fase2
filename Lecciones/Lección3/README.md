@@ -18,4 +18,4 @@ El paquete exportado está disponible en la carpeta `Exportaciones/`.
 ### Capturas de Pantalla
 Las capturas de pantalla que evidencian la ejecución del ejercicio se encuentran en la carpeta `Capturas/`.
 
-[Descargar PDF de capturas](https://github.com/UrielElias01/Actividad_1_ejecucion_de_tutoriales_fase2/tree/main/Lecciones/Lecci%C3%B3n3/Capturas)
+[Descargar PDF de capturas](https://github.com/UrielElias01/Actividad_1_ejecucion_de_tutoriales_fase2/blob/main/Lecciones/Lecci%C3%B3n3/Capturas/Prototipo03_Evidencias.pdf)
