@@ -4,7 +4,7 @@
 [Breve descripción de lo que se ha hecho en esta lección o desafío.]
 
 ## Scripts
-Los scripts utilizados se encuentran en la carpeta `Scripts/`. Cada script está documentado con detalles sobre su funcionalidad, parámetros y autoría.
+No hay Scripts
 
 ### Autor
 - Nombre: [Ángel Uriel Elíaz Velázquez]
