@@ -1,7 +1,7 @@
 # Lección 3: Animación 2D
 
 ## Descripción
-[Breve descripción de lo que se ha hecho en esta lección o desafío.]
+Se hace una introducción a los juegos 2D, comenzando con la creación de animaciones mediante sprites que a su vez son generados con imagenes PNG en secuencia
 
 ## Scripts
 No hay Scripts
