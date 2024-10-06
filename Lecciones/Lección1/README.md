@@ -8,13 +8,13 @@
 Los scripts utilizados se encuentran en la carpeta `Scripts/`. Cada script está documentado con detalles sobre su funcionalidad, parámetros y autoría.
 
 ### Autor
-- Nombre: [Tu Nombre]
-- Fecha: [Fecha de creación]
+- Nombre: [Ángel Uriel Elías Velázquez]
+- Fecha: [09/09/2024]
 
 ### Exportación del Paquete de Unity
 El paquete exportado está disponible en la carpeta `Exportaciones/`.
 
-[Enlace al paquete exportado](https://github.com/tu_usuario/tu_repositorio/Lecciones/Lección[N]/Exportaciones/Prototipo01.unitypackage)
+[Enlace al paquete exportado](https://github.com/UrielElias01/Actividad_1_ejecucion_de_tutoriales_fase2.git/Lecciones/Lección[N]/Exportaciones/Prototipo01.unitypackage)
 
 ### Capturas de Pantalla
 Las capturas de pantalla que evidencian la ejecución del ejercicio se encuentran en la carpeta `Capturas/`.
