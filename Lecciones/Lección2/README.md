@@ -5,7 +5,7 @@
 Se hace una introducción a los juegos 2D, comenzando con la creación de animaciones mediante sprites que a su vez son generados con imagenes PNG en secuencia
 
 ## Scripts
-No hay Scripts
+Los scripts utilizados se encuentran en la carpeta `Scripts/`. Cada script está documentado con detalles sobre su funcionalidad, parámetros y autoría.
 
 ### Autor
 - Nombre: [Ángel Uriel Elíaz Velázquez]
