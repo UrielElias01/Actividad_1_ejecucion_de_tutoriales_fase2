@@ -9,9 +9,9 @@ Este repositorio contiene todas las lecciones y desafíos ejecutados en el Centr
 
 ### Lecciones
 
-1. [Lección 1: Control del Jugador](Lecciones/Lección1/README.md)
-2. [Lección 2: Jugabilidad Básica](Lecciones/Lección2/README.md)
-3. [Lección 3: Animación 2D](Lecciones/Lección3/README.md)
+1. [Lección 1: Control del Jugador](Lecciones/Lección1/)
+2. [Lección 2: Jugabilidad Básica](Lecciones/Lección2/)
+3. [Lección 3: Animación 2D](Lecciones/Lección3/)
 4. [Lección 4: Mecánicas de Jugabilidad](Lecciones/Lección4/README.md)
 5. [Lección 5: Interfaz de Usuario](Lecciones/Lección5/README.md)
 
