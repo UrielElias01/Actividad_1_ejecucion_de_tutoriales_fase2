@@ -1,15 +1,15 @@
 
-# Lección 2: 
+# Lección 2: Jugabilidad Báscia
 
 ## Descripción
-Se hace una introducción a los juegos 2D, comenzando con la creación de animaciones mediante sprites que a su vez son generados con imagenes PNG en secuencia
+Se desarrolla un juego más completo sobre un "shooter" de comida hacia 3 animales, donde un granjero le lanza comida a sus animales para hacerlos desaparece
 
 ## Scripts
 Los scripts utilizados se encuentran en la carpeta `Scripts/`. Cada script está documentado con detalles sobre su funcionalidad, parámetros y autoría.
 
 ### Autor
 - Nombre: [Ángel Uriel Elíaz Velázquez]
-- Fecha: [04/10/2024]
+- Fecha: [25/09/2024]
 
 ### Exportación del Paquete de Unity
 El paquete exportado está disponible en la carpeta `Exportaciones/`.
