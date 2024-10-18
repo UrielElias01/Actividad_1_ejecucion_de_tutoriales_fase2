@@ -24,6 +24,6 @@ Las capturas de pantalla que evidencian la ejecución del ejercicio se encuentra
 
 [Descargar PDF de capturas Parte3](https://github.com/UrielElias01/Actividad_1_ejecucion_de_tutoriales_fase2/blob/main/Lecciones/Lecci%C3%B3n3/Capturas/Prototipo03_EvidenciasP3.pdf)
 
-[Descargar PDF de capturas Parte4](https://github.com/UrielElias01/Actividad_1_ejecucion_de_tutoriales_fase2/blob/main/Lecciones/Lecci%C3%B3n3/Capturas/Prototipo03_EvidenciasP3.pdf)
+[Descargar PDF de capturas Parte4](https://github.com/UrielElias01/Actividad_1_ejecucion_de_tutoriales_fase2/blob/main/Lecciones/Lecci%C3%B3n3/Capturas/Prototipo03_EvidenciasP4.pdf)
 
 [Descargar PDF de capturas Parte5](https://github.com/UrielElias01/Actividad_1_ejecucion_de_tutoriales_fase2/blob/main/Lecciones/Lecci%C3%B3n3/Capturas/Prototipo03_EvidenciasP3.pdf)
