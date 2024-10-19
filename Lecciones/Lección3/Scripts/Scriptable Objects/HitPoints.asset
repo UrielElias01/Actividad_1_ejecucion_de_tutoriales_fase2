@@ -9,11 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3e83a63eaa4041438b0e87d25221c60, type: 3}
-  m_Name: Heart
+  m_Script: {fileID: 11500000, guid: 53b84360178f1a44f975d34c417507e9, type: 3}
+  m_Name: HitPoints
   m_EditorClassIdentifier: 
-  objectName: heart
-  sprite: {fileID: -8843976880988234773, guid: 0f0f0727f45929349b1a65c97c097881, type: 3}
-  quantity: 10
-  stackable: 0
-  itemType: 1
+  value: 0

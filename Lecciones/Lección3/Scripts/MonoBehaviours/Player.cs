@@ -13,41 +13,50 @@ using UnityEngine;
 // Clase Player hereda de Character
 public class Player : Character
 {
-    //Método invocado cuando otro collider colisiona
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    public HealthBar healthBarPrefab; //Referencia HealthBar Prefab
+    private HealthBar healthBar; //Copia de referencia de HealthBar Prefab
+    private void Start()
     {
-        //verifica si el objeto colisionado tiene como etiqueta CanBePickeUp
+        healthBar = Instantiate(healthBarPrefab); //Instanciar HealthBar
+        healthBar.character = this; //Referencia del Player en HealthBar
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
         if (collision.gameObject.CompareTag("CanBePickedUp"))
         {
             Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
-
             if (hitObject != null)
             {
-                //ocultamos el objeto de la escena
-                print("Nombre: "+hitObject.objectName);
-
-                switch(hitObject.itemType)
+                Debug.Log("Nombre: " + hitObject.objectName);
+                bool shouldDisappear = false;
+                switch (hitObject.itemType)
                 {
-                    case Item.ItemType.COIN:
+                    case Item.ItemType.COIN: //Moneda
+                        shouldDisappear = true;
                         break;
-                    case Item.ItemType.HEALTH:
-                        AdjusHitPoitns(hitObject.quantity); 
-                        break;
-                    default:
+                    case Item.ItemType.HEALTH://Barra de Salud
+                       
+                        shouldDisappear = AdjustHitPoints(hitObject.quantity);
+                        Debug.Log("Cantidad a Incrementar: " + hitObject.quantity + " Desaparecer" + shouldDisappear);
                         break;
                 }
-
-                collision.gameObject.SetActive(false);
+                if (shouldDisappear)
+                {
+                    collision.gameObject.SetActive(false); //Desaparecer
+                }
             }
         }
     }
-
-    public void AdjusHitPoitns(int amount)
+    private bool AdjustHitPoints(int amount)
     {
-        hitPoints = hitPoints + amount;
-        print("Ajustando puntos: " + amount + ". Nuevo Valor: " + hitPoints);
+        Debug.Log(hitPoints.value + "  " + maxHitPoints);
+        if (hitPoints.value < maxHitPoints) // no se puede exceder el máximo de puntos
+        {
+            hitPoints.value = hitPoints.value + amount;
+            print("Ajustando Puntos: " + amount + ". Nuevo Valor: " + hitPoints.value);
+            return true; //Fue modificado
+        }
+        return false; //No se modifica entonces el Heart no desaparece
     }
-
-
 }

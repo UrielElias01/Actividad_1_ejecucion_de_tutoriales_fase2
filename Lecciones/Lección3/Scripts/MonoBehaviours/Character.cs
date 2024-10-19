@@ -13,6 +13,7 @@ using UnityEngine;
 
 public abstract class Character : MonoBehaviour
 {
-    public int hitPoints;   //puntos de vida actuales
-    public int macHitPoints;    //puntos de vida máximos
+    public HitPoints hitPoints; //Puntos actuales de jugador
+    public float maxHitPoints; //Máximos puntos a obtener
+
 }
